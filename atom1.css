@@ -1,0 +1,37 @@
+h1,h2,p1,p2 {
+  font-family: serif;
+  font-family: sans-serif;
+  font-family: cursive;
+  font-family: fantasy;
+  font-family: inherit;
+  font-family: monospace;
+  font-size: px,em,%
+  line-height:normal;
+  line-height: inherit;
+  word-spacing: normal;
+  word-spacing: inherit;
+  letter-spacing: normal;
+  letter-spacing: inherit;
+  font-weight: bold;
+  font-style: italic;
+  font-style:oblique;
+  text-transform: lowercase;
+  text-transform: uppercase;
+  text-decoration: line-through;
+  text-decoration:none;
+  text-decoration: overline;
+  text-decoration: underline;
+  text-decoration: inherit;
+  text-decoration-color:;
+  text-decoration-style: dashed;
+  text-decoration-style: dotted;
+  text-decoration-style: double;
+  text-decoration-style: solid;
+  text-decoration-style: wavy;
+  text-align: center;
+  text-align: left;
+    text-align: justify;
+      text-align: right;
+        text-align: inherit;
+
+}
