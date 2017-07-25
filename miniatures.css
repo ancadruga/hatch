@@ -1,0 +1,89 @@
+
+body {
+  font-family: Georgia;
+  color: black;
+  text-align: center;
+
+}
+.logo {
+}
+h1 {
+  font-size: 80px;
+  color: #FFD700;
+}
+.page-description {
+  text-align: center;
+  padding: 40px;
+  width: 1600px;
+  margin-left: 200px;
+  color: #fbedb7;
+  font-size: 35px;
+  background-color: rgba(14, 1, 2, 0.38)
+}
+a {
+  text-align: center;
+  color: #dfdae3;
+  font-size: 40px;
+  padding: 8px 18px;
+  background-color: rgba(14, 1, 2, 0.38);
+  border-radius: 2px;
+ text-shadow: none;
+
+}
+
+.hero {
+  background-image: url("https://ancadruga.files.wordpress.com/2017/07/34705730500_8311faefe1_o.jpg?w=2000&h=1500&crop=1");
+background-blend-mode: hard-light;
+background-repeat: no-repeat;
+	background-position: center top;
+background-size: cover;
+width:660 px;
+height: 660px;
+background-size: cover;
+padding: 250px 0;
+margin: 0px;
+text-shadow: 0 2px #000000;
+}
+
+.h1 {
+  font-variant-ligatures: normal;
+  font-weight: bold;
+  font-kerning: normal;
+  text-decoration-style: wavy;
+  text-decoration: line-through;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  padding: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+
+}
+
+
+nav li {
+  margin: 0;
+  padding: 0 20px;
+  display: inline;
+}
+
+nav ul {
+  display: inline;
+}
+
+.contact-btn a {
+  display: inline;
+  margin-right: 30px;
+  padding: 8px 18px;
+  border: 1px solid #204156;
+
+}
+
+.contact-btn a:active {
+  position: relative;
+  bottom: 2px;
+}
