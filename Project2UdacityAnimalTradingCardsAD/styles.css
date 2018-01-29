@@ -1,18 +1,14 @@
 /* add your CSS here */
 
-
 #container {
   width: 320px;
   border: 1px solid #eee;
   box-shadow: 10px 10px 5px #eee;
-
-
-
 }
-.hero {
-padding: 10px;
-margin: auto;
 
+.hero {
+  padding: 10px;
+  margin: auto;
 }
 
 img {
@@ -21,12 +17,11 @@ img {
   padding-bottom: 10px;
 }
 
-.bottom, .top{
-width: 300px;
-border: 0.5px solid #ddd;
-
-
+.bottom, .top {
+  width: 300px;
+  border: 0.5px solid #ddd;
 }
+
 .top {
   border: none;
 }
@@ -40,15 +35,16 @@ border: 0.5px solid #ddd;
 
 .bottom ul {
   list-style-type: none;
-margin: 0;
-padding-left: 10px;
-font-size: 13px;
+  margin: 0;
+  padding-left: 10px;
+  font-size: 13px;
 }
 
 .bottom li {
   text-align: left;
 }
-.bottom span{
+
+.bottom span {
   font-weight: bold;
 }
 
