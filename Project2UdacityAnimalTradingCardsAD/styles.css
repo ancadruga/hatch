@@ -1,0 +1,57 @@
+/* add your CSS here */
+
+
+#container {
+  width: 320px;
+  border: 1px solid #eee;
+  box-shadow: 10px 10px 5px #eee;
+
+
+
+}
+.hero {
+padding: 10px;
+margin: auto;
+
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  padding-bottom: 10px;
+}
+
+.bottom, .top{
+width: 300px;
+border: 0.5px solid #ddd;
+
+
+}
+.top {
+  border: none;
+}
+
+.bottom p {
+  font-style: italic;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 13px;
+}
+
+.bottom ul {
+  list-style-type: none;
+margin: 0;
+padding-left: 10px;
+font-size: 13px;
+}
+
+.bottom li {
+  text-align: left;
+}
+.bottom span{
+  font-weight: bold;
+}
+
+.bottom p:last-child {
+  font-style: normal;
+}
