@@ -6,35 +6,64 @@
   <!--Changed the font, to personilize the page -->
   <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
-  <h1>Lab: Pixel Art Maker</h1>
+  <div class="main">
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Guide</button>
+      <div id="myDropdown" class="dropdown-content">
+        <ul>
+          <li>1. Select the Canvas Height and Width with the help of the slide bars.</li>
+          <li>2. Click 'Submit' to create the Canvas.</li>
+          <li>3. Pick a color. </li>
+          <li>4. Start drawing: hold click for continuous fill or doubleclick to erase.</li>
+          <li>5. Click 'Remove Grid' and take a snap of your art!</li>
+          <li>6. Click 'Submit' to reset the Canvas.</li>
+          <li> Have fun! :D </li>
+        </ul>
+      </div>
 
-  <h2>Choose Grid Size</h2>
-  <form id="sizePicker">
-    Grid Height:
-    <!--Added a maximum value to avoid crashing the browser and to diminuate the loading time.-->
-    <input type="number" id="input_height" name="height" max=963 min="1" value="1">
-    Grid Width:
-    <input type="number" id="input_width" name="width" max=963 min="1" value="1">
-    <input type="submit">
-  </form>
 
-  <h2>Pick A Color</h2>
-  <input type="color" id="colorPicker">
+      <h1>Lab: Pixel Art Maker</h1>
 
-  <h2>Design Canvas</h2>
-  <!--Break added for a better design-->
-  <br>
-  <table id="pixel_canvas"></table>
-  <br>
-  <!--Button added to toggle the grid-->
-  <input type="button" id="toggleT" value="Remove Grid">
+      <div class="hero">
+        <h2>Choose Grid Size</h2>
+        <form id="sizePicker">
+          Grid Height:
+          <!--Added a maximum value to avoid crashing the browser and to diminuate the loading time.-->
+          <input type="range" class="slider" id="input_height" name="height" max=25 min="1" value="1">
+          <p>Value: <span id="nr"></span></p>
+          Grid Width:
+          <input type="range" class="slider" id="input_width" name="width" max=25 min="1" value="1">
+          <p>Value: <span id="nr2"></span></p>
+          <input type="submit">
+        </form>
+      </div>
 
-  <!--jQuery minified library added to access the DOM-->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="designs.js"></script>
+      <div class="hero-left">
+        <h2>Pick A Color</h2>
+        <input type="color" id="colorPicker">
+        <h2>Design Canvas</h2>
+        <!--Break added for a better design-->
+        <br>
+        <table id="pixel_canvas"></table>
+        <br>
+        <!--Button added to toggle the grid-->
+        <input type="button" id="toggleT" value="Remove Grid">
+      </div>
+      <!--Social buttons-->
+      <div id="social">
+        <div class="container clearfix">
+          <a href="" target="_blank"><span class="fa fa-github"></span></a>
+          <a href="" target="_blank"><span class="fa fa-codepen"></span></a>
+
+        </div>
+      </div>
+      <!--jQuery minified library added to access the DOM-->
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script src="designs.js"></script>
 </body>
 
 </html>
