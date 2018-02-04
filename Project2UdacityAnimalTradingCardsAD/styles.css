@@ -1,9 +1,13 @@
 /* add your CSS here */
-
 #container {
   width: 320px;
-  border: 1px solid #eee;
-  box-shadow: 10px 10px 5px #eee;
+  border: 2px solid #028482;
+  box-shadow: 5px 5px 2px #50c878;
+  background-image: url(http://hddesktopwallpapers.in/wp-content/uploads/2015/06/Jungle-Wallpapers-HD-A4-680x425.jpg);
+  color: white;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
 }
 
 .hero {
@@ -15,11 +19,13 @@ img {
   width: 300px;
   height: 200px;
   padding-bottom: 10px;
+  border-radius: 15px;
 }
 
 .bottom, .top {
   width: 300px;
   border: 0.5px solid #ddd;
+  border-radius: 15px;
 }
 
 .top {
@@ -28,8 +34,7 @@ img {
 
 .bottom p {
   font-style: italic;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px 10px;
   font-size: 13px;
 }
 
@@ -48,6 +53,8 @@ img {
   font-weight: bold;
 }
 
-.bottom p:last-child {
+.bottom article {
   font-style: normal;
+  text-align: justify;
+  font-size: 13px;
 }
