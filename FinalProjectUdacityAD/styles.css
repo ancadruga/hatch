@@ -115,7 +115,7 @@ h1 {
   display: block;
 }
 
-.dropdown p:hover {
+.dropdown li:hover {
   background-color: #f1f1f1
 }
 
