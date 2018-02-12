@@ -5,9 +5,9 @@ Version:0.3*/
 
 $('document').ready(function() {
   /**
-  @description: Create a table for Pixel Art by setting the height and width of the grid.
+  @description: Create a table for Pixel Art by setting the height and width of the grid
   @param {string} grid to use it later in the code
-  @returns: {number} numbrt of columns and rows
+  @returns: {number} number of columns and rows
   */
   $('#sizePicker').submit(function makeGrid(grid) {
     $('table tr').remove();
@@ -41,7 +41,7 @@ $('document').ready(function() {
       fill = true;
       if (fill) {
         $(evt.target).css('background-color', colorSelected);
-      };
+      }
     });
     $('#pixel_canvas').on('mouseenter', 'td', function(evt) {
       if (fill) {
@@ -82,7 +82,7 @@ $('document').ready(function() {
   output.innerHTML = slider.value;
   slider.oninput = function() {
     output.innerHTML = this.value;
-  };
+  }
 
   //Code for slider Width
   var slider2 = document.getElementById("input_width");
@@ -90,7 +90,7 @@ $('document').ready(function() {
   output2.innerHTML = slider2.value;
   slider2.oninput = function() {
     output2.innerHTML = this.value;
-  };
+  }
       /**
     @description: Click to toggle drop-down menu
     @returns: {boolean}
@@ -109,9 +109,9 @@ $('document').ready(function() {
         var openDropdown = dropdowns[i];
         if (openDropdown.classList.contains('show')) {
           openDropdown.classList.remove('show');
-        };
-      };
-    };
-  };
+        }
+      }
+    }
+  }
 
 });
